@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" id="orderdetail_win">
+		<Require src="_orderdetailheader"></Require>
+		<View class="content_post" id="content">
+			<Label class="h2">ORDER DETAILS</Label>
+			<ImageView class="separator" ></ImageView>
+		</View>
+		<View class="details_form"  >
+			<WebView id="orderdetailview" disableBounce="true" onLoad="construct"  url="/html/dealer_orderdetail.html" />
+		</View>
+	</Window>
+</Alloy>

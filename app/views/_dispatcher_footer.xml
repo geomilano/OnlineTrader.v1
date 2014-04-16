@@ -1,0 +1,11 @@
+<Alloy>
+	<View id="footer">
+		<ImageView width="20%" id="home" mod="home" onClick="goNav" left="0" image="/images/icons/icon-dispatcher-task.png" />
+		<ImageView width="20%" id="orderlist" mod="orderlist" onClick="goNav" left="20%" image="/images/icons/icon-dispatcher-mytask.png" />
+		<ImageView width="20%" id="summary" mod="summary" onClick="goNav" left="40%" image="/images/icons/icon-summary.png" />
+		
+		<ImageView width="20%" id="settings" mod="settings" onClick="goNav" left="60%" image="/images/icons/icon-setting.png" />
+		<ImageView width="20%" id="logout" mod="logout" onClick="doLogout" left="80%" image="/images/icons/icon-logout.png" />
+	
+	</View>
+</Alloy>

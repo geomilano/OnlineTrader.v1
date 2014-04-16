@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container"  id="dispatcher_summary">
+		<Require src="_header" id="footer"></Require>
+		<View class="content" height="500">
+			<Label class="h2">DISPATCHER - SUMMARY</Label>
+			<ImageView class="separator"></ImageView>
+			<View height="40">
+				<Label top="10dp" left="10dp">Today Commission</Label>
+				<Label class="summary_figure" id="todayCommission">0</Label>
+			</View>
+			
+			<View height="40" id='testing'>
+				<Label mod="monthly_commission" onClick="goNav" top="10dp" left="10dp">Monthly Commission</Label>
+				<Label class="summary_figure" id="monthCommission">0</Label>
+			</View>
+			
+			<ImageView class="separator"></ImageView>
+		</View>
+		
+		<Require src="_dispatcher_footer" id="footer"></Require>
+	</Window>
+</Alloy>

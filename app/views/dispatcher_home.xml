@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container" id="dispatcher_home">
+		<Require src="_header"></Require>
+		<View class="content_post" id="content">
+			<Label class="h2">HOME</Label>
+			<ImageView class="separator" ></ImageView>
+		</View>
+		<View class="home_form" id="home_form" >
+			<WebView id="dis_home" disableBounce="true" onLoad="construct"  url="/html/dispatcher_home.html" />
+		</View>
+		<Require type="view" src="_dispatcher_footer" id="footer"/>
+	
+	</Window>
+</Alloy>

@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container" id="dis_orderdetail_win">
+		<Require src="_orderdetailheader"></Require>
+		<View class="content_post" id="content">
+			<Label class="h2">ORDER DETAILS</Label>
+			<ImageView class="separator" ></ImageView>
+		</View>
+		<View class="details_form"  >
+			<WebView id="orderdetailview" disableBounce="true" onLoad="construct"  url="/html/dispatcher_orderdetail.html" />
+		</View>
+		<View id="footer" height="62">
+			<Label id="btncomplete" onTouchend="orderComplete">COMPLETE</Label>
+			<View class="border-line" left="50%" top="0%"></View>
+			<Label id="btncancel" onTouchend="orderCancel">CANCEL</Label>
+		</View>
+	</Window>
+</Alloy>
